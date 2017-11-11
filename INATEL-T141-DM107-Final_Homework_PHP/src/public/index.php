@@ -44,10 +44,15 @@
     {
         //Remove o recurso identificado pelo id
     }
-
 */
 
     $app->get('/api/entrega', function (Request $request, Response $response) {
+        $username = $_SERVER['PHP_AUTH_USER'];
+        $password = $_SERVER['PHP_AUTH_PW'];
+        $user = $this->db->user()->where('login= ? and password = ?', $username , $password);
+        if (!$user->fetch()) {
+            return $response->withStatus(401);
+        }
         $entregas = $this->db->entregas();
         return $response->withJson($entregas);
     });
@@ -55,6 +60,12 @@
 
     $app->get('/api/entrega/{numeroDoPedido}', function (Request $request, Response $response)
     {
+        $username = $_SERVER['PHP_AUTH_USER'];
+        $password = $_SERVER['PHP_AUTH_PW'];
+        $user = $this->db->user()->where('login= ? and password = ?', $username , $password);
+        if (!$user->fetch()) {
+            return $response->withStatus(401);
+        }
         $numeroDoPedido = $request->getAttribute("numeroDoPedido");
         $entrega = $this->db->entregas()->where('numeroDoPedido', $numeroDoPedido);
         if ($entrega->fetch()) {
@@ -67,6 +78,12 @@
 
     $app->post('/api/entrega/create', function (Request $request, Response $response)
     {
+        $username = $_SERVER['PHP_AUTH_USER'];
+        $password = $_SERVER['PHP_AUTH_PW'];
+        $user = $this->db->user()->where('login= ? and password = ?', $username , $password);
+        if (!$user->fetch()) {
+            return $response->withStatus(401);
+        }
         $body = $request->getBody();
         $convert_to_array = explode('&', $body);
         for($i=0; $i < count($convert_to_array ); $i++){
@@ -90,6 +107,12 @@
 
     $app->delete('/api/entrega/{numeroDoPedido}', function(Request $request, Response $response)
     {
+        $username = $_SERVER['PHP_AUTH_USER'];
+        $password = $_SERVER['PHP_AUTH_PW'];
+        $user = $this->db->user()->where('login= ? and password = ?', $username , $password);
+        if (!$user->fetch()) {
+            return $response->withStatus(401);
+        }
         $numeroDoPedido = $request->getAttribute("numeroDoPedido");
         $entrega = $this->db->entregas()->where('numeroDoPedido', $numeroDoPedido);
         if ($entrega->fetch()) {
@@ -102,6 +125,12 @@
 
     $app->put('/api/entrega/update/{numeroDoPedido}', function (Request $request, Response $response)
     {
+        $username = $_SERVER['PHP_AUTH_USER'];
+        $password = $_SERVER['PHP_AUTH_PW'];
+        $user = $this->db->user()->where('login= ? and password = ?', $username , $password);
+        if (!$user->fetch()) {
+            return $response->withStatus(401);
+        }
         $numeroDoPedido = $request->getAttribute("numeroDoPedido");
         $body = $request->getBody();
         $convert_to_array = explode('&', $body);

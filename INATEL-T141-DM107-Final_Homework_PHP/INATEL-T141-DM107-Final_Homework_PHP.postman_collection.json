@@ -47,9 +47,14 @@
 			"data": null,
 			"dataMode": "params",
 			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1510278834078,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1510439546719,
 			"name": "numeroDoPedido",
 			"description": "",
 			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
@@ -151,7 +156,7 @@
 				"password": "password1",
 				"saveToRequest": true
 			},
-			"time": 1510371275906,
+			"time": 1510439553271,
 			"name": "update",
 			"description": "",
 			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
@@ -196,7 +201,7 @@
 				"password": "password1",
 				"saveToRequest": true
 			},
-			"time": 1510278762645,
+			"time": 1510439528923,
 			"name": "entregas",
 			"description": "",
 			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
@@ -225,7 +230,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega/P12",
+			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega/P11",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -298,7 +303,7 @@
 				"password": "password1",
 				"saveToRequest": true
 			},
-			"time": 1510371266862,
+			"time": 1510439541683,
 			"name": "delete",
 			"description": "",
 			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
@@ -336,7 +341,7 @@
 			"data": [
 				{
 					"key": "numeroDoPedido",
-					"value": "P12",
+					"value": "P11",
 					"description": "",
 					"type": "text",
 					"enabled": true
@@ -358,7 +363,7 @@
 				"password": "password1",
 				"saveToRequest": true
 			},
-			"time": 1510371253058,
+			"time": 1510439538047,
 			"name": "create",
 			"description": "",
 			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
