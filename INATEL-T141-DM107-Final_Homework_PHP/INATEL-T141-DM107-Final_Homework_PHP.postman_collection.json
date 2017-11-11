@@ -1,0 +1,368 @@
+{
+	"id": "daeaea4d-f76c-efee-2523-947843e42f69",
+	"name": "INATEL-T141-DM107-Final_Homework_PHP",
+	"description": "",
+	"order": [
+		"58bcaca3-786b-5fff-ee26-12e6d3f3c50f",
+		"1bc80e09-ea6e-a097-845d-22e1b29c729e",
+		"fac0aa5f-25c8-c77b-ecd8-b70c6e150f51",
+		"8a21d3ee-1276-9f18-fdaf-bc1ac13fee67",
+		"3399c036-91f7-16cf-ada6-cb883d976a55"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1510276330987,
+	"owner": "2070412",
+	"public": false,
+	"requests": [
+		{
+			"id": "1bc80e09-ea6e-a097-845d-22e1b29c729e",
+			"headers": "//Accept: application/json\n//Content-Type: application/json\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega/P1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510278834078,
+			"name": "numeroDoPedido",
+			"description": "",
+			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
+			"responses": []
+		},
+		{
+			"id": "3399c036-91f7-16cf-ada6-cb883d976a55",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega/update/P11",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "numeroDoPedido",
+					"value": "P11",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nomeDoRecebedor",
+					"value": "Recebedor11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpfDoRecebedor",
+					"value": "123.456.789-11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "diaDaEntrega",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mesDaEntrega",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "anoDaEntrega",
+					"value": "2017",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "horaDaEntrega",
+					"value": "01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minutoDaEntrega",
+					"value": "32",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1510371275906,
+			"name": "update",
+			"description": "",
+			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
+			"responses": []
+		},
+		{
+			"id": "58bcaca3-786b-5fff-ee26-12e6d3f3c50f",
+			"headers": "//Accept: application/json\n//Content-Type: application/json\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1510278762645,
+			"name": "entregas",
+			"description": "",
+			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
+			"responses": []
+		},
+		{
+			"id": "8a21d3ee-1276-9f18-fdaf-bc1ac13fee67",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega/P12",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "numeroDoPedido",
+					"value": "P11",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nomeDoRecebedor",
+					"value": "Recebedor12",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "cpfDoRecebedor",
+					"value": "123.456.789-12",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "diaDaEntrega",
+					"value": "06",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "mesDaEntrega",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "anoDaEntrega",
+					"value": "2017",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "horaDaEntrega",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "minutoDaEntrega",
+					"value": "30",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1510371266862,
+			"name": "delete",
+			"description": "",
+			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
+			"responses": []
+		},
+		{
+			"id": "fac0aa5f-25c8-c77b-ecd8-b70c6e150f51",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/aula/INATEL-T141-DM107-Final_Homework_PHP/src/public/api/entrega/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "numeroDoPedido",
+					"value": "P12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "idDoCliente",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1510371253058,
+			"name": "create",
+			"description": "",
+			"collectionId": "daeaea4d-f76c-efee-2523-947843e42f69",
+			"responses": []
+		}
+	]
+}

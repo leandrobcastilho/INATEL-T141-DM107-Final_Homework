@@ -1,0 +1,421 @@
+{
+	"id": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+	"name": "INATEL-T141-DM107-Final_Homework_JAVA",
+	"description": "",
+	"order": [
+		"2ee69d29-9e63-42a1-9865-900f16a8a49c",
+		"f92d88ec-4c75-75a1-2cfa-26501cc24b51",
+		"2c487bab-2f5c-103f-30d6-8ced6ac05f57",
+		"59761576-6b49-cec5-fd2b-8b3bc5683c27",
+		"4597b094-388b-5b19-0a7d-f7d07e1107ba",
+		"1cf7f032-da97-ff59-2924-487181d052f2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1509935072069,
+	"owner": "2070412",
+	"public": false,
+	"requests": [
+		{
+			"id": "1cf7f032-da97-ff59-2924-487181d052f2",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/INATEL-T141-DM107-Final_Homework/api/entrega/P12",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "numeroDoPedido",
+					"value": "P11",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nomeDoRecebedor",
+					"value": "Recebedor12",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "cpfDoRecebedor",
+					"value": "123.456.789-12",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "diaDaEntrega",
+					"value": "06",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "mesDaEntrega",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "anoDaEntrega",
+					"value": "2017",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "horaDaEntrega",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "minutoDaEntrega",
+					"value": "30",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1509941900789,
+			"name": "delete",
+			"description": "",
+			"collectionId": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+			"responses": []
+		},
+		{
+			"id": "2c487bab-2f5c-103f-30d6-8ced6ac05f57",
+			"headers": "Accept: application/json\nContent-Type: application/json\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/INATEL-T141-DM107-Final_Homework/api/entrega/P1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1509937277219,
+			"name": "numeroDoPedido",
+			"description": "",
+			"collectionId": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+			"responses": []
+		},
+		{
+			"id": "2ee69d29-9e63-42a1-9865-900f16a8a49c",
+			"headers": "Accept: application/json\nContent-Type: application/json\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/INATEL-T141-DM107-Final_Homework/api/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+			"data": null,
+			"dataMode": "params",
+			"name": "user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1509937086027,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			}
+		},
+		{
+			"id": "4597b094-388b-5b19-0a7d-f7d07e1107ba",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/INATEL-T141-DM107-Final_Homework/api/entrega/update/P12",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "numeroDoPedido",
+					"value": "P11",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nomeDoRecebedor",
+					"value": "Recebedor12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpfDoRecebedor",
+					"value": "123.456.789-12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "diaDaEntrega",
+					"value": "06",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mesDaEntrega",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "anoDaEntrega",
+					"value": "2017",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "horaDaEntrega",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minutoDaEntrega",
+					"value": "30",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1509941540777,
+			"name": "update",
+			"description": "",
+			"collectionId": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+			"responses": []
+		},
+		{
+			"id": "59761576-6b49-cec5-fd2b-8b3bc5683c27",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/INATEL-T141-DM107-Final_Homework/api/entrega/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "numeroDoPedido",
+					"value": "P12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "idDoCliente",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1509941542724,
+			"name": "create",
+			"description": "",
+			"collectionId": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+			"responses": []
+		},
+		{
+			"id": "f92d88ec-4c75-75a1-2cfa-26501cc24b51",
+			"headers": "Accept: application/json\nContent-Type: application/json\nAuthorization: Basic dXNlcjE6cGFzc3dvcmQx\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/INATEL-T141-DM107-Final_Homework/api/entrega",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "user1",
+				"password": "password1",
+				"saveToRequest": true
+			},
+			"time": 1509941370578,
+			"name": "entrega",
+			"description": "",
+			"collectionId": "622759a4-715b-3430-1aeb-da095d3c2fcb",
+			"responses": []
+		}
+	]
+}
